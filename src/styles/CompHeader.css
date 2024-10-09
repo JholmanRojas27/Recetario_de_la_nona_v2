@@ -1,0 +1,14 @@
+.comp-header{
+    width: 800px;
+    height: auto;
+    margin: auto;
+    align-items: center;
+}
+
+.comp-header img{
+    width: 80%;
+    height: 80%;
+    padding: auto;
+    margin: auto;
+    align-items: center;
+}

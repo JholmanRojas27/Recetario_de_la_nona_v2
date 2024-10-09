@@ -1,0 +1,11 @@
+.star-rating{
+    display: flex;
+}
+.star{
+    cursor: pointer;
+    transition: fill 0.2s;
+}
+
+.star:hover{
+    fill: #FFD700;
+}

@@ -1,0 +1,100 @@
+.vista-receta{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    width: auto;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.vista-receta input,select{
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    outline: none;
+    transition: border-box 0.3s;
+    margin-top: 15px;
+}
+
+.ingredientes-list{
+    width: 80%;
+    padding: 10px;
+    font-size: 1 rem;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    outline: none;
+    transition: border-box 0.3s ease;
+    margin-top: 25px;
+}
+
+.ingredientes-list button{
+    background-color: #0097B2;
+    color: #f6f7f9;
+    padding: 10px;
+    width: 20%;
+    border-radius: 15px;
+    margin: 20px 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.ingredientes-list button:hover{
+    background-color: #555;
+    color: #f6f7f9;
+    transform: scale(1.05);
+}
+
+.vista-recetas-text{
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border:  1px solid #ddd;
+    border-radius: 25px;
+    outline: none;
+    transition: border-box 0.3s ease;
+    margin-top: 15px;
+}
+
+.btn-insert{
+    width: 30%;
+    background-color: #0097B2;;
+    color: #f6f7f9;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px 40px 10px 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.btn-insert:hover{
+    background-color: #555;
+    color: #f6f7f9;
+    transform: scale(1.20);
+}
+
+.btn-prew{
+    width: 30%;
+    background-color:#c5573f;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px 40px 10px 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.btn-prew:hover{
+    transform: scale(1.20);
+}

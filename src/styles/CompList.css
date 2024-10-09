@@ -1,0 +1,39 @@
+.comp-list{
+    border: 1px solid #E2E8F0;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    box-shadow: 0 1px 3px 0 rgba (0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+    padding: 20px;
+    width: 300;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comp-list h2{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.comp-list p{
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.comp-list button{
+    background-color: #0097B2;
+    color: #f6f7f9;
+    padding: 15px;
+    width: 20%;
+    border-radius: 15px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.comp-list button:hover{
+    background-color: #555;
+    transform: scale(1.20);
+}

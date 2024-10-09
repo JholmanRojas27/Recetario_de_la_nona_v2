@@ -1,0 +1,13 @@
+.homepage{
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.homepage-buscador{
+    width: 100%;
+    border-radius: 16px;
+    height: 30px;
+    margin: 20px 0;
+}
